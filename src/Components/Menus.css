@@ -1,0 +1,60 @@
+.dashboard_menu {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding-top: 25px;
+}
+
+.highlighter {
+    width: 7px;
+    background: #14A9F9;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.dash_icon {
+    color: #14A9F9;
+}
+
+.dash_title {
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dash_title>h1 {
+    margin: 0px 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #14A9F9;
+}
+
+.menu_options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.menu_item {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+}
+
+.menu_item>p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 10px;
+    color: rgba(28, 48, 74, 0.5);
+}
+
+.menu_item_icon {
+    margin-top: 7px;
+    color: rgba(28, 48, 74, 0.5);
+}

@@ -1,0 +1,72 @@
+.meet {
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    color: #028CD5;
+}
+
+.meet>p {
+    width: 95%;
+    margin: 0px;
+}
+
+.meeting>h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 10px 0px;
+    color: #192434;
+}
+
+.meeting>p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(28, 46, 69, 0.6);
+}
+
+.meet_members {
+    display: flex;
+    flex-direction: row;
+}
+.memb_img{
+    width: 60%;
+}
+
+.memb_img>img {
+    height: 30px;
+}
+.image2{
+    position: absolute;
+    left: 1200px;
+    
+}
+.image3{
+    position: absolute;
+    left: 1215px;
+}
+.image4{
+    position: absolute;
+    left: 1230px;
+}
+.meet_members>button {
+    width: 100px;
+    height: 32px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+color: #ffffff;
+    background: #14A9F9;
+    box-shadow: 0px 4px 40px rgba(101, 144, 255, 0.15);
+    border-radius: 5px;
+}

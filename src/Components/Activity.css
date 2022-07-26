@@ -1,0 +1,51 @@
+.activities {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+}
+
+.meetings {
+    width: 100%;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(24, 39, 58, 0.94);
+    border-bottom: 1px solid #EDEDED;
+}
+
+.meetings>p {
+    width: 95%;
+    margin: 0px;
+}
+.today_meeting {
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: rgba(24, 39, 58, 0.94);
+}
+
+.today_meeting>p {
+    width: 95%;
+    margin: 0px;
+}
+.schedule{
+    border-bottom: 1px solid #EDEDED;
+
+}
+.schedule{
+    border-bottom: none;
+}

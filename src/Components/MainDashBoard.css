@@ -1,0 +1,52 @@
+.main_dash{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+.main_dash>p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #192434;
+    margin-bottom: 0px;
+    
+}
+.main_dash>h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E6F7D;
+}
+.project_status{
+    display: flex;
+    justify-content: space-between;
+}
+.cp_header,>p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #6E6F7D;
+    margin-top: 0px;
+}
+.di_header>p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #6E6F7D;
+    margin-top: 0px;
+}
+.current_projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
