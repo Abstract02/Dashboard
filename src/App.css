@@ -18,6 +18,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 }
+.logo>img{
+  height: 70px;
+}
 .search_bar{
   width: 57%;
   display: flex;

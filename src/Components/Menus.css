@@ -58,3 +58,7 @@
     margin-top: 7px;
     color: rgba(28, 48, 74, 0.5);
 }
+.dash_title>h1.promo{
+    font-size: 11px;
+    color: rgba(24, 39, 58, 0.94);
+}

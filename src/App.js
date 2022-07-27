@@ -1,6 +1,7 @@
 import './App.css';
 import User from './Components/User'
 import Menus from './Components/Menus';
+import Logo from './Components/images/Logo.jpg'
 import Activity from './Components/Activity';
 import MainDashBoard from './Components/MainDashBoard';
 
@@ -10,7 +11,7 @@ function App() {
     <div className='dashboard'>
       <div className='header'>
         <div className='logo'>
-          <h1>LOGO</h1>
+          <img src={Logo} alt='sdsd' />
         </div>
         <div className='search_bar'>
           <input placeholder='searh for projects' />

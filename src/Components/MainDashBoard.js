@@ -35,6 +35,8 @@ function MainDashBoard() {
         </div>
         <div className='pending_invoices'>
           <Invoice />
+          <Invoice />
+          <Invoice />
           
         </div>
     </div>

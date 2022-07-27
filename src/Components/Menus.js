@@ -2,6 +2,7 @@ import React from 'react'
 import { HiDocumentText } from 'react-icons/hi'
 import { MdSend, MdCall, MdNotificationsActive } from 'react-icons/md'
 import { BsCalendarCheck, BsFillGrid1X2Fill } from 'react-icons/bs'
+import {FcAdvertising} from 'react-icons/fc'
 import './Menus.css'
 
 function Menus() {
@@ -34,6 +35,16 @@ function Menus() {
                 <div className='menu_item'>
                     <MdCall className='menu_item_icon' />
                     <p>Contacts</p>
+                </div>
+            </div>
+            <div className='dash_title'>
+                
+                <h1 className='promo'>Promotions</h1>
+            </div>
+            <div className='menu_options'>
+                <div className='menu_item'>
+                    <FcAdvertising className='menu_item_icon' />
+                    <p>Promotions</p>
                 </div>
             </div>
         </>
