@@ -28,9 +28,9 @@ function MainDashBoard() {
           <p>Projects that are currently in progress</p>
         </div>
         <div className='current_projects'>
-        <Project />
-        <Project />
-        <Project />
+        <Project project="Housing" name="Vanesha Roy" link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAoBWvOSRMve0ZteEW_GaPy0AX_VMDePjDFQ&usqp=CAU" />
+        <Project project="Building" name = "Moshandb Dibarr" link = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROEUqMxQpHe32ZCHRo8jB_gKQ_KJBPVTTXvg&usqp=CAU" />
+        <Project project="Factory" name = "Anniket Prashad" link='https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg' />
         </div>
         <div className='di_header'>
           <Diheader />

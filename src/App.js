@@ -1,9 +1,11 @@
 import './App.css';
 import User from './Components/User'
+import {BiSearchAlt2} from 'react-icons/bi'
 import Menus from './Components/Menus';
 import Logo from './Components/images/Logo.jpg'
 import Activity from './Components/Activity';
 import MainDashBoard from './Components/MainDashBoard';
+
 
 function App() {
   return (
@@ -11,9 +13,10 @@ function App() {
     <div className='dashboard'>
       <div className='header'>
         <div className='logo'>
-          <img src={Logo} alt='sdsd' />
+          <img src={Logo} alt='logo' />
         </div>
         <div className='search_bar'>
+          <BiSearchAlt2 className='search_icon' />
           <input placeholder='searh for projects' />
         </div>
         <div className='user'>
