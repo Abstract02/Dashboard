@@ -7,6 +7,9 @@ import Completed from './Completed'
 import Cpheader from './Cpheader'
 import Project from './Project'
 import Invoice from './Invoice'
+import Slider from 'react-slick'
+// import "~slick-carousel/slick/slick.css"; 
+// import "~slick-carousel/slick/slick-theme.css";
 
 function MainDashBoard() {
     

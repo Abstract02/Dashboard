@@ -1,8 +1,10 @@
 import React from 'react'
 import './LiveProject.css'
 import {CgMediaPodcast} from 'react-icons/cg'
+import Logo from './images/Logo.jpg'
 
 function LiveProject() {
+  
   return (
     <>
     <div className='live_project'>

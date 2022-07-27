@@ -35,6 +35,10 @@
     color: #6E6F7D;
     margin-top: 0px;
 }
+.current_projects{
+    width: 100%;
+    height: 180px;
+}
 .di_header>p{
     font-family: 'Rubik';
     font-style: normal;

@@ -1,9 +1,11 @@
+
 .live_project {
     width: 37%;
     height: 170px;
     background: #7A9FFF;
     box-shadow: 0px 20px 60px rgba(2, 140, 213, 0.15);
     border-radius: 11.4904px;
+    background-image: url("./images/Vector\ 1.png");
 }
 
 .top_row {
